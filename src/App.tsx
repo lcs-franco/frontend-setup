@@ -1,6 +1,6 @@
-import Button from '@views/Button'
+import Button from '@ui/components/Button'
 
-function App() {
+export default function App() {
 
   return (
     <>
@@ -9,4 +9,3 @@ function App() {
   )
 }
 
-export default App
