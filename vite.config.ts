@@ -10,7 +10,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@views': path.resolve(__dirname, 'src', 'views')
+      '@ui': path.resolve(__dirname, 'src', 'ui')
     }
   }
 })
