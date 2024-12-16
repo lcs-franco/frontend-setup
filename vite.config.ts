@@ -10,7 +10,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@ui': path.resolve(__dirname, 'src', 'ui')
-    }
-  }
+      '@ui': path.resolve(__dirname, 'src', 'ui'),
+      '@app': path.resolve(__dirname, 'src', 'app'),
+    },
+  },
 })
