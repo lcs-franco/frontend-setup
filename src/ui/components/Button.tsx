@@ -1,5 +1,3 @@
 export default function Button() {
-    return (
-        <button>Butão</button>
-    )
+  return <button>Butão</button>
 }
