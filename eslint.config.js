@@ -32,36 +32,6 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
-      'import/order': [
-        'error',
-        {
-          groups: [
-            'builtin',
-            'external',
-            'internal',
-            'parent',
-            'sibling',
-            'index',
-          ],
-          pathGroups: [
-            {
-              pattern: '@app/**',
-              group: 'internal',
-              position: 'after',
-            },
-            {
-              pattern: '@ui/**',
-              group: 'internal',
-              position: 'after',
-            },
-          ],
-          alphabetize: {
-            order: 'asc',
-            caseInsensitive: true,
-          },
-          'newlines-between': 'always',
-        },
-      ],
       'prettier/prettier': 'error',
     },
   },
