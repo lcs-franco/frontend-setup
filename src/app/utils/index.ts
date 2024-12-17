@@ -1,1 +1,1 @@
-export function cn() {}
+export default function cn() {}
