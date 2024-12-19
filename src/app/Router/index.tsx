@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom'
 
 export default function Router() {
-    return (
-        <Routes>
-            <Route/>
-        </Routes>
-    )
+  return (
+    <Routes>
+      <Route />
+    </Routes>
+  )
 }
